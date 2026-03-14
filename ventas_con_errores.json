@@ -1,0 +1,142 @@
+{
+  "ventas": [
+    {
+      "id_venta": 1,
+      "fecha": "2025-03-10",
+      "cliente": "Ana López",
+      "productos": [
+        {
+          "nombre": "Laptop",
+          "categoria": "Informática",
+          "precio": 899.99,
+          "cantidad": 1
+        },
+        {
+          "nombre": "Ratón inalámbrico",
+          "categoria": "Accesorios",
+          "precio": 29.99,
+          "cantidad": 2
+        }
+      ],
+      "total": 959.97,
+      "metodo_pago": "tarjeta"
+    },
+    {
+      "id_venta": 2,
+      "fecha": "2025-03-11",
+      "cliente": "Carlos Martínez",
+      "productos": [
+        {
+          "nombre": "Smartphone",
+          "categoria": "Telefonía",
+          "precio": 699.99,
+          "cantidad": 1
+        }
+      ],
+      "total": 699.99,
+      "metodo_pago": "efectivo"
+    },
+    {
+      "id_venta": 3,
+      "fecha": "2025-03-12",
+      "cliente": "Laura García",
+      "productos": [
+        {
+          "nombre": "Tablet",
+          "categoria": "Informática",
+          "precio": 349.99,
+          "cantidad": 1
+        },
+        {
+          "nombre": "Funda para tablet",
+          "categoria": "Accesorios",
+          "precio": 19.99,
+          "cantidad": 1
+        }
+      ],
+      "total": 369.98,
+      "metodo_pago": "TARJETA"  // Error: Inconsistencia en mayúsculas
+    },
+    {
+      "id_venta": 4,
+      "fecha": "2025-03-13",
+      "cliente": "Pedro Sánchez",
+      "productos": [
+        {
+          "nombre": "Auriculares",
+          "categoria": "Accesorios",
+          "precio": 59.99,
+          "cantidad": 3
+        }
+      ],
+      "total": 179.97,
+      "metodo_pago": "transferencia"
+    },
+    {
+      "id_venta": 5,
+      "fecha": "2025-03-14",
+      "cliente": null,  // Error: Valor nulo en cliente
+      "productos": [
+        {
+          "nombre": "Monitor",
+          "categoria": "Informática",
+          "precio": -249.99,  // Error: Precio negativo
+          "cantidad": 1
+        }
+      ],
+      "total": 249.99,
+      "metodo_pago": "tarjeta"
+    },
+    {
+      "id_venta": 6,
+      "fecha": "2025-03-15",
+      "cliente": "Marta Ruiz",
+      "productos": [
+        {
+          "nombre": "Teclado mecánico",
+          "categoria": "Accesorios",
+          "precio": 89.99,
+          "cantidad": 0  // Error: Cantidad cero
+        }
+      ],
+      "total": 0,
+      "metodo_pago": "paypal"  // Error: Método de pago no estandarizado
+    },
+    {
+      "id_venta": 7,
+      "fecha": "2025-03-16",
+      "cliente": "Javier Gómez",
+      "productos": [
+        {
+          "nombre": "Impresora",
+          "categoria": null,  // Error: Categoría nula
+          "precio": 129.99,
+          "cantidad": 2
+        }
+      ],
+      "total": 259.98,
+      "metodo_pago": "tarjeta"
+    },
+    {
+      "id_venta": 8,
+      "fecha": "2025-03-17",
+      "cliente": "Sofía Fernández",
+      "productos": [
+        {
+          "nombre": "Disco duro SSD",
+          "categoria": "Almacenamiento",
+          "precio": 79.99,
+          "cantidad": 1
+        },
+        {
+          "nombre": "Cable HDMI",
+          "categoria": "Accesorios",
+          "precio": 9.99,
+          "cantidad": 2
+        }
+      ],
+      "total": 99.97,
+      "metodo_pago": "efectivo"
+    }
+  ]
+}
