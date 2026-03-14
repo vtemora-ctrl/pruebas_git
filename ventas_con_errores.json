@@ -55,7 +55,7 @@
         }
       ],
       "total": 369.98,
-      "metodo_pago": "TARJETA"  // Error: Inconsistencia en mayúsculas
+      "metodo_pago": "TARJETA"
     },
     {
       "id_venta": 4,
@@ -75,12 +75,12 @@
     {
       "id_venta": 5,
       "fecha": "2025-03-14",
-      "cliente": null,  // Error: Valor nulo en cliente
+      "cliente": null,
       "productos": [
         {
           "nombre": "Monitor",
           "categoria": "Informática",
-          "precio": -249.99,  // Error: Precio negativo
+          "precio": -249.99,
           "cantidad": 1
         }
       ],
@@ -96,11 +96,11 @@
           "nombre": "Teclado mecánico",
           "categoria": "Accesorios",
           "precio": 89.99,
-          "cantidad": 0  // Error: Cantidad cero
+          "cantidad": 0
         }
       ],
       "total": 0,
-      "metodo_pago": "paypal"  // Error: Método de pago no estandarizado
+      "metodo_pago": "paypal"
     },
     {
       "id_venta": 7,
@@ -109,7 +109,7 @@
       "productos": [
         {
           "nombre": "Impresora",
-          "categoria": null,  // Error: Categoría nula
+          "categoria": null,
           "precio": 129.99,
           "cantidad": 2
         }
