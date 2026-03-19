@@ -1,0 +1,6 @@
+[
+  {"id": "TK-2023-01", "info": "Servidor Web|Error 500", "cliente": "SaaS Corp", "fecha": "2023-01-15T08:30:00", "prioridad": 1, "tecnico": {"nom": "Ana G.", "dep": "Sistemas"}, "coste": "150.50"},
+  {"id": "TK-2023-02", "info": "Base de Datos|Timeout", "cliente": "SaaS Corp", "fecha": "16/01/2023", "prioridad": 2, "tecnico": {"nom": "Carlos M.", "dep": "Sistemas"}, "coste": "200"},
+  {"id": "TK-2024-03", "info": "Email|Spam Filter", "cliente": "Retail Ltd", "fecha": "2024-02-10", "prioridad": 3, "tecnico": {"nom": "Ana G.", "dep": "Seguridad"}, "coste": "ERROR"},
+  {"id": "TK-2024-04", "info": "Red|Latencia Alta", "cliente": "SaaS Corp", "fecha": "2024-02-12T14:00:00", "prioridad": 1, "tecnico": null, "coste": "350.75"}
+]
